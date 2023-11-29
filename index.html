@@ -42,6 +42,23 @@
             padding: 80px 10px;
         }
 
+        /* Style the box with a thin black outline */
+        .thin-outline-box {
+            border: 1px solid #cfcdcd; /* 1px width, solid black outline */
+            padding: 20px 10px; /* Optional: Add padding to the content inside the box */
+            
+        }
+
+        h1 {
+            color: #333;           /* Text color */
+            font-size: 1.3em;        /* Font size (adjust as needed) */
+            margin-bottom: 20px;   /* Bottom margin */
+            font-family: 'Arial', sans-serif;  /* Font family (optional) */
+            font-weight: bold;
+            /* Additional styles can be added as needed */
+        }
+
+
         .section-feedback {
             text-align: left;
             padding: 80px 10px;
@@ -64,7 +81,6 @@
             color: #fff;
             font-size:small;
         }
-
 
 
         .navbar {
@@ -141,7 +157,13 @@
     <!-- Listings Section -->
     <div id="listings" class="section bg-light">
         <div class="container">
-            <script type="text/javascript" src="https://esoftie.com/apps/ebaywidget/js.php?seller_id=geeksportscards-dot-com&country_id=0&sort_by=EndTimeSoonest&hide_duplicates=1&combine_accounts=0&items_per_page=50"></script>
+
+            <p><div class="thin-outline-box">
+                <!-- Content goes here -->
+                <h1>eBay Listings</h1>
+            </div></p>
+    
+            <p><script type="text/javascript" src="https://esoftie.com/apps/ebaywidget/js.php?seller_id=geeksportscards-dot-com&country_id=0&sort_by=EndTimeSoonest&hide_duplicates=1&combine_accounts=0&items_per_page=50"></script></p>
     </div>
 
     <!-- Feedback Section -->

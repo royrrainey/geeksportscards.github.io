@@ -30,6 +30,13 @@
             padding: 80px 10px;
         }
 
+        .section-featured {
+            text-align: left;
+            padding: 80px 10px;
+            background-color: white;
+            font-size: small;
+        }
+
         .section-listings {
             text-align: left;
             padding: 80px 10px;
@@ -124,9 +131,10 @@
     </nav>
 
     <!-- Home Section -->
-    <div id="home" class="section">
+    <div id="home" class="section-featured">
         <div class="container">
-            <div id="fst_listings"></div><script type="text/javascript" src="https://freesellertools.com/load_tool/get_listings.php?user=geeksportscards-dot-com&#038;globalid=EBAY-US&#038;keyword=jordan&#038;limit=10&#038;design=gridlist&#038;heading=Featured Listing&#038;font=Arial&#038;items_row=4&#038;items_slide=3&#038;auto_start=false" defer></script>
+            <!-- <div id="fst_listings"></div><script type="text/javascript" src="https://freesellertools.com/load_tool/get_listings.php?user=geeksportscards-dot-com&#038;globalid=EBAY-US&#038;keyword=jordan&#038;limit=10&#038;design=gridlist&#038;heading=Featured Listing&#038;font=Arial&#038;items_row=4&#038;items_slide=3&#038;auto_start=false" defer></script> -->
+            <div id="fst_listings"></div><script type="text/javascript" src="https://freesellertools.com/load_tool/get_listings.php?user=geeksportscards-dot-com&#038;globalid=EBAY-US&#038;keyword=graded&#038;limit=100&#038;design=grid&#038;heading=Featured Cards&#038;font=Arial&#038;items_row=4&#038;items_slide=1&#038;auto_start=true" defer></script>
         </div>
     </div>
 
@@ -134,13 +142,12 @@
     <div id="listings" class="section bg-light">
         <div class="container">
             <script type="text/javascript" src="https://esoftie.com/apps/ebaywidget/js.php?seller_id=geeksportscards-dot-com&country_id=0&sort_by=EndTimeSoonest&hide_duplicates=1&combine_accounts=0&items_per_page=50"></script>
-        </div>
     </div>
 
     <!-- Feedback Section -->
     <div id="feedback" class="section-feedback">
         <div class="container">
-            <p><div id="fst_profile"><img src="https://freesellertools.com/load_tool/images/loader.gif" title="loading items"></div><script type="text/javascript" src="https://www.freesellertools.com/load_tool/get_profile.php?user=geeksportscards-dot-com&#038;site=0&#038;show_feedback=0&#038;show_ratings=1&#038;show_stats=2"></script></p>
+            <p><div id="fst_profile"></div><script type="text/javascript" src="https://www.freesellertools.com/load_tool/get_profile.php?user=geeksportscards-dot-com&#038;site=0&#038;show_feedback=0&#038;show_ratings=1&#038;show_stats=2"></script></p>
             <p><div id="fst_feedback"></div><script type="text/javascript" src="https://freesellertools.com/load_tool/get_feedback.php?user=geeksportscards-dot-com&#038;site=1&#038;design=table&#038;items=5&#038;feedback_type=FeedbackReceivedAsSeller"></script></p>
         </div>
     </div>
